@@ -23,8 +23,6 @@ public class Solution {
             slow = slow.next;
         }
         slow.next = slow.next.next;
-        return head;
-
-        
+        return head;   
     }
 }
